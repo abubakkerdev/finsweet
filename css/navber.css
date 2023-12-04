@@ -2,49 +2,49 @@
   background: var(--primary);
   padding: 16px 0;
 }
-.navber__content {
+.navberMain {
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-.navber__content-logo {
+.navberMain__logo {
     width: 122px;
     height: 28px;
 }
-.navber__content-logo img {
+.navberMain__logo-img {
     width: 100%;
     height: 100%;
     object-fit: cover;
 }
-.navber__content-menu-main {
+.navberMain__content {
   display: flex;
   column-gap: 32px;
 }
-.navber__content-menu-main-item:hover a {
+.navberMain__content-menu-item:hover a {
   color: white;
 }
-.navber__content-menu-main-item:first-child a {
+.navberMain__content-menu-item:first-child a {
   color: white;
 }
-.navber__content-menu-main-item::first-letter {
+.navberMain__content-menu-item::first-letter {
     text-transform: uppercase;
 }
-.navber__content-menu-main-item a {
+.navberMain__content-menu-item a {
   color: #bbbbcb;
   transition-duration: 600ms;
   line-height: 28px;
   font-weight: 500;
   font-style: normal;
 }
-.navber__content-menu {
+.navberMain__content-menu {
   display: flex;
   column-gap: 48px;
-  align-items: baseline;
+  align-items: center;
 }
-.navber__content-menu-button-text::first-letter {
+.menuButton__text::first-letter {
     text-transform: capitalize;
 }
-.navber__content-menu-button-text {
+.menuButton__text {
   width: 190px;
   padding: 16px 48px;
   border-radius: 41px;

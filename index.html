@@ -7,12 +7,13 @@
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@300;400;500;600;700;800&family=Poppins:wght@200;300;400;500;600;700;800&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="./css/variable.css" />
     <link rel="stylesheet" href="./css/common.css" />
     <link rel="stylesheet" href="./css/navber.css" />
+    <link rel="stylesheet" href="./css/header.css" />
   </head>
   <body>
     <!--***************************
@@ -20,36 +21,39 @@
     ****************************-->
     <nav class="navber">
       <div class="container">
-        <div class="navber__content">
-          <div class="navber__content-logo">
-            <img src="./images/logo.png" loading="lazy" alt="logo.png" />
+        <div class="navberMain">
+          <div class="navberMain__logo">
+            <img
+              src="./images/logo.png"
+              class="navberMain__logo-img"
+              loading="lazy"
+              alt="logo.png"
+            />
           </div>
 
-          <div class="navber__content-menu">
-            <ul class="navber__content-menu-main">
-              <li class="navber__content-menu-main-item">
+          <div class="navberMain__content">
+            <ul class="navberMain__content-menu">
+              <li class="navberMain__content-menu-item">
                 <a href="#">home</a>
               </li>
-              <li class="navber__content-menu-main-item">
+              <li class="navberMain__content-menu-item">
                 <a href="#">about us</a>
               </li>
-              <li class="navber__content-menu-main-item">
+              <li class="navberMain__content-menu-item">
                 <a href="#">features</a>
               </li>
-              <li class="navber__content-menu-main-item">
+              <li class="navberMain__content-menu-item">
                 <a href="#">pricing</a>
               </li>
-              <li class="navber__content-menu-main-item">
+              <li class="navberMain__content-menu-item">
                 <a href="#">fAQ</a>
               </li>
-              <li class="navber__content-menu-main-item">
+              <li class="navberMain__content-menu-item">
                 <a href="#">blog</a>
               </li>
             </ul>
-            <div class="navber__content-menu-button">
-              <button type="button" class="navber__content-menu-button-text">
-                contact us
-              </button>
+            <div class="menuButton">
+              <button type="button" class="menuButton__text">contact us</button>
             </div>
           </div>
         </div>
@@ -57,6 +61,38 @@
     </nav>
     <!--***************************
         Navber part start
+    ****************************-->
+
+    <!--***************************
+        Header part start
+    ****************************-->
+    <header class="header">
+      <div class="container">
+        <div class="headerMain">
+          <div class="headerMain__content">
+            <h2 class="headerMain__content-h2">All the features you need</h2>
+            <p class="headerMain__content-p">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+            <button type="button" class="headerMain__content-button">
+              View Pricing
+            </button>
+          </div>
+          <div class="headerMain__banner">
+            <div class="bannerImage">
+              <img
+                src="./images/header.png"
+                class="bannerImage__img"
+                alt="header.png"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!--***************************
+        Header part end
     ****************************-->
   </body>
 </html>

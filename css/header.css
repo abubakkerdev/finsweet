@@ -29,10 +29,10 @@
 }
 .headerMain__content-button {
   padding: 12px 48px;
-  background: #fcd980;
+  background: #fcd980; 
   border-radius: 41px;
   border-color: transparent;
-  color: #282938;
+  color: var(--dark);
   font-family: "Manrope", sans-serif;
   font-size: 18px;
   font-style: normal;

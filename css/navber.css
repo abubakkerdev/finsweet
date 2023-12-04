@@ -45,13 +45,14 @@
     text-transform: capitalize;
 }
 .navber__content-menu-button-text {
-  width: 185px;
+  width: 190px;
   padding: 16px 48px;
   border-radius: 41px;
   border: 2px solid rgba(244, 246, 252, 0.2);
   background: transparent;
   color: white;
   line-height: 28px;
+  font-size: 16px;
   font-weight: 500;
   font-style: normal;
 }

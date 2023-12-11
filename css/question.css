@@ -67,14 +67,29 @@
   color: var(--dark);
   font-size: 18px;
   font-style: normal;
+  display: none;
   font-weight: 500;
   margin: 16px 0;
   line-height: 32px;
   opacity: 0.87;
+  transition: display 0.3s ease;
+}
+.active-desc {
+  display: block;
 }
 .question__faq-item-icon {
   width: 16px;
   height: 16px;
   color: var(--dark);
+  transform: rotate(45deg);
   opacity: 0.7;
+}
+.active-icon {
+  animation: rotateAnimation 500ms forwards;
+}
+
+@keyframes rotateAnimation {
+  to {
+    transform: rotate(0);
+  }
 }
